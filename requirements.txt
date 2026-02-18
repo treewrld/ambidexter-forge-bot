@@ -1,2 +1,5 @@
 aiogram==2.25.1
+
 python-dotenv
+
+python-3.10.13
