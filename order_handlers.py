@@ -318,9 +318,8 @@ async def contacts(message: types.Message):
         return
     await message.answer(
         "<b>Контакты:</b>\n"
-        "Telegram: @your_nick\n"
-        "Email: example@mail.com\n"
-        "Телефон: +33 ..."
+        "Email: ognenukovcheg@gmail.com\n"
+        "Телефон: +7 (915) 350 24 76"
     )
 
 
@@ -766,3 +765,4 @@ def register_order_handlers(dp: Dispatcher):
         Text(startswith="confirm_"),
         state=CustomOrderState.confirm,
     )
+
